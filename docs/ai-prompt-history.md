@@ -66,8 +66,22 @@ The project should be evaluated on the implementation, reasoning, testing, and l
 
 **AI tool:** ChatGPT
 
-**Purpose:** Understand the assignment requirements and plan the project.
+**Purpose:** Understand the project requirements and plan implementation.
 
-**Prompt record:** The user supplied the YottaFlex Marketing Attribution and Anomaly Detection Pipeline assignment, covering business context, entities and relationships, synthetic data generation, required anomaly cases, validation rules, acceptance criteria, and submission requirements.
+**Prompt record:** Full assignment text supplied by the user, covering the business context, objectives, entities and relationships, synthetic data generation, attribution models, anomaly scenarios, validation rules, acceptance criteria, and submission requirements.
 
-**Record status:** Summary of the assignment prompt. This is not a verbatim transcript of the complete original message.
+**Record status:** This entry is currently a summary. The complete original assignment text should be included below when available.
+
+
+### Recovered Original Prompts
+
+#### Prompt 2 — Data generation
+**AI tool:** ChatGPT
+
+**Original prompt:**  Requested assistance with creating src/generate_data.py to generate synthetic marketing data, including channels, campaigns, contacts, touchpoints, web sessions, leads, opportunities, orders, and campaign costs. The implementation used a fixed random seed (20261022) and CSV outputs.
+
+
+#### Prompt 3 — Debugging
+**AI tool:** ChatGPT
+
+**Original prompt:** Requested help investigating and fixing project issues, checking Python scripts and database operations, troubleshooting data-generation and validation problems, and resolving errors in attribution, anomaly detection, and chronological evaluation splits.
