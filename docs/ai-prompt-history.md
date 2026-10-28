@@ -97,3 +97,15 @@ The project should be evaluated on the implementation, reasoning, testing, and l
 **Verification:** Database and data-validation scripts were run locally to check record counts, identifiers, and relationships.
 
 **Record status:** Summary of database development assistance based on available project context. This is not a verbatim transcript of the original prompts.
+
+#### Attribution Models and ROI Reporting — Prompt Record
+
+**AI tool:** ChatGPT
+
+**Purpose:** Compare marketing attribution methods and calculate campaign performance.
+
+**Prompt summary:** Requested assistance with implementing and validating first-touch, last-touch, and linear attribution models, connecting eligible marketing touchpoints to won opportunities, reconciling attributed revenue, and generating campaign ROI reports.
+
+**Verification:** The attribution validation script reported zero revenue mismatches for the three models. The ROI report was generated for 500 campaigns across three attribution models.
+
+**Record status:** Summary of attribution and reporting assistance based on available project context. This is not a verbatim transcript of the original prompts.
