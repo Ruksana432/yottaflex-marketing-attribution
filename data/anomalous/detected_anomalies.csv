@@ -1,0 +1,6 @@
+anomaly_type,entity_type,entity_id,reason
+duplicate_revenue,Order,ORD-ANOM-20261022,Order repeats an earlier order's business fields
+post_conversion_touchpoint,Touchpoint,TOUCH-ANOM-20261022,Touchpoint occurs after its associated won opportunity closed
+currency_mismatch,CostRecord,COST-2026-000001,Cost currency USD differs from campaign currency INR
+missing_campaign_costs,Campaign,CMP-2026-000500,No cost records exist for this campaign
+unsupported_identity_link,WebSession,SES-2026-000005,Session references a contact absent from the contact dataset

@@ -1,0 +1,6 @@
+anomaly_id,anomaly_type,entity_type,entity_id,expected_detection
+ANOM-001,duplicate_revenue,Order,ORD-ANOM-20261022,Duplicate order for same opportunity and amount
+ANOM-002,post_conversion_touchpoint,Touchpoint,TOUCH-ANOM-20261022,Touchpoint timestamp is after opportunity conversion
+ANOM-003,currency_mismatch,CostRecord,COST-2026-000001,Cost currency differs from its campaign currency
+ANOM-004,missing_campaign_costs,Campaign,CMP-2026-000500,No cost records remain for this campaign; removed 3
+ANOM-005,unsupported_identity_link,WebSession,SES-2026-000005,Session linked to a contact ID without identity evidence
