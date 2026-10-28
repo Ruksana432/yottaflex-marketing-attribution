@@ -60,3 +60,14 @@ This document is a summary of the development process and AI assistance. It is n
 The available conversation history should be reviewed to add the original prompts wherever they can be recovered. Any unrecoverable prompts should be identified honestly rather than reconstructed and presented as exact quotations.
 
 The project should be evaluated on the implementation, reasoning, testing, and limitations that I can explain and demonstrate.
+
+
+## Assignment Prompt 1 — YottaFlex Project Requirements
+
+**AI tool:** ChatGPT
+
+**Purpose:** Understand the assignment requirements and plan the project.
+
+**Prompt record:** The user supplied the YottaFlex Marketing Attribution and Anomaly Detection Pipeline assignment, covering business context, entities and relationships, synthetic data generation, required anomaly cases, validation rules, acceptance criteria, and submission requirements.
+
+**Record status:** Summary of the assignment prompt. This is not a verbatim transcript of the complete original message.
