@@ -85,3 +85,15 @@ The project should be evaluated on the implementation, reasoning, testing, and l
 **AI tool:** ChatGPT
 
 **Original prompt:** Requested help investigating and fixing project issues, checking Python scripts and database operations, troubleshooting data-generation and validation problems, and resolving errors in attribution, anomaly detection, and chronological evaluation splits.
+
+#### Database Design and Setup — Prompt Record
+
+**AI tool:** ChatGPT
+
+**Purpose:** Design and set up the relational database for the marketing attribution pipeline.
+
+**Prompt summary:** Requested assistance with defining database tables and relationships, creating SQL schema definitions, setting up SQLite database operations, loading generated CSV data, and validating primary keys and foreign-key relationships.
+
+**Verification:** Database and data-validation scripts were run locally to check record counts, identifiers, and relationships.
+
+**Record status:** Summary of database development assistance based on available project context. This is not a verbatim transcript of the original prompts.
