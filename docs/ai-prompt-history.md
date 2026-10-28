@@ -109,3 +109,31 @@ The project should be evaluated on the implementation, reasoning, testing, and l
 **Verification:** The attribution validation script reported zero revenue mismatches for the three models. The ROI report was generated for 500 campaigns across three attribution models.
 
 **Record status:** Summary of attribution and reporting assistance based on available project context. This is not a verbatim transcript of the original prompts.
+
+
+#### Anomaly Detection and Evaluation — Prompt Record
+
+**AI tool:** ChatGPT
+
+**Purpose:** Identify data-quality issues and evaluate anomaly detection results.
+
+**Prompt summary:** Requested assistance with detecting duplicate revenue, touchpoints occurring after conversion, campaign spend currency mismatches, missing campaign costs, and unsupported identity links. Also requested help comparing detected findings with labelled synthetic ground-truth cases and calculating precision, recall, and F1 score.
+
+**Verification:** The evaluation script detected all five deliberately injected synthetic anomaly cases, reporting five true positives, zero false positives, and zero false negatives.
+
+**Limitation:** These metrics apply only to the five injected synthetic cases and do not establish performance on real-world data.
+
+**Record status:** Summary of anomaly detection assistance based on available project context. This is not a verbatim transcript of the original prompts.
+
+
+#### Testing, Evaluation Splits, and Documentation — Prompt Record
+
+**AI tool:** ChatGPT
+
+**Purpose:** Verify project behaviour and prepare reproducible documentation.
+
+**Prompt summary:** Requested assistance with running automated unit tests, validating data and attribution results, creating chronological training, validation, and test splits without dividing identical timestamps across datasets, updating README instructions, and documenting project limitations and verification results.
+
+**Verification:** Four automated unit tests passed. The chronological split script confirmed that training, validation, and test periods were ordered correctly and that identical timestamps were not split across datasets.
+
+**Record status:** Summary of testing and documentation assistance based on available project context. This is not a verbatim transcript of the original prompts.
